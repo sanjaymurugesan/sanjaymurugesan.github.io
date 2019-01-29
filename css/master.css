@@ -1,5 +1,5 @@
 html { 
-  background: url(../images/background.jpg) no-repeat center center fixed; 
+  background: url(../images/backgroundlight.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10,7 +10,7 @@ html {
 .prof-box {
 	width: 800px;
 	height: 800px;
-	background: rgba(0,0,0,0.4); 
+	background: rgba(0,0,0,0.2); 
 	padding: 40px;
 	color: white;
 	margin: 0 auto;
@@ -19,7 +19,7 @@ html {
 }
 
 .prof-pic {
-	border-radius: 50%;
+	border-radius: 75%;
 	height: 200px;
 }
 
@@ -48,7 +48,52 @@ p {
 	border-top: 1px solid white;
 }
 
-.umdlogo {
-	width: 50%
-	height: 50%;
+.edu-box {
+	width: 800px;
+	height: 800px;
+	background: rgba(0,0,0,0.4); 
+	padding: 40px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center;
 }
+
+h2 {
+	font-weight: 100;
+	letter-spacing: 10;
+	font-size: 40px;
+}
+
+.umd-logo {
+	max-width: 100%;
+	height: auto;
+}
+
+.gwhlogo {
+	max-width: 50%%;
+	max-height: 100%;
+}
+
+.work-box {
+	width: 800px;
+	height: 800px;
+	background: rgba(0,0,0,0.2); 
+	padding: 40px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center;
+}
+
+h3 {
+	font-weight: 100;
+	letter-spacing: 10;
+	font-size: 40px;
+}
+
+.psqr-logo {
+	max-width: 100%;
+	height: auto;
+}
+
