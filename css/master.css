@@ -26,12 +26,16 @@ h6 {
   }
   
   .prof-pic {
+		position: static;
 	  border-radius: 50%;
 	  height: 200px;
   }
   
   h1 {
-	  float: left;
+		font: 100px trebuchet, monospace;
+		position: static;
+		left: 25px;
+		top: 225px;
 	  font-weight: 100;
 	  letter-spacing: 10;
 	  font-size: 40px;
@@ -39,6 +43,8 @@ h6 {
   }
   
   p {
+		font: 15px verdana, serif;
+		position: relative;
 	  font-weight: 10;
 	  letter-spacing: 2;
   }
