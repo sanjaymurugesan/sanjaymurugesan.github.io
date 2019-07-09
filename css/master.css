@@ -25,20 +25,21 @@ h6 {
   }
   
   .prof-pic {
-		position: static;
+	  position: static;
 	  border-radius: 50%;
-	  height: 200px;
+	  height: 300px;
   }
 	/* typewriter effect from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effect/ */
 	.typewriter h1 {
-		overflow: hidden; /* Ensures the content is not revealed until the animation */
-		border-right: .15em solid transparent; /* The typwriter cursor */
-		white-space: nowrap; /* Keeps the content on a single line */
-		margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-		letter-spacing: .15em; /* Adjust as needed */
+		overflow: hidden;
+		font-size: 40px;
+		border-right: .15em solid transparent;
+		white-space: nowrap; 
+		margin: 0 auto; 
+		letter-spacing: .15em;
 		animation: 
 			typing 3.5s steps(40, end),
-			blink-caret .75s step-end 2;
+			blink-caret .75s step-end 2.53;
 	}
 	
 	/* The typing effect */
@@ -54,15 +55,15 @@ h6 {
 	}
   
   p {
-		font: 15px verdana, serif;
-		position: relative;
-	  font-weight: 10;
-	  letter-spacing: 2;
+	font: 25px verdana, serif;
+	position: relative;
+	font-weight: 10;
+	letter-spacing: 2;
   }
 
   .social-media {
-	  font-size: 75px;
-	  display:inline-block;
+	font-size: 100px;
+	display:inline-block;
   }
   .rotate .fa.fa-folder-open:hover{
 	font-size:6em;
@@ -74,11 +75,11 @@ h6 {
 .card:hover > .card-block > .rotate > .fa { font-size: 6em; transition: 1s ease-out;}
   
   .social-media a {
-	  color: white;
+	color: white;
   }
   
   .line-break {
-	  width: 325px;
-	  margin: 0 auto;
-	  border-top: 1px solid white;
+	width: 325px;
+	margin: 0 auto;
+	border-top: 1px solid white;
   }
